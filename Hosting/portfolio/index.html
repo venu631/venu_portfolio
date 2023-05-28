@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c0fa3c4313.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+             <!-- <img src="images/logo2.jpg"  class="logo">  -->
+            <nav>
+                 <img src="images/logo2.jpg"  class="logo"> 
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT </a></li>
+                    <li><a href="#projects">PROJECT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+              
+                <h1>Hi ,I 'm <span>Venu </span>Vignesh T</h1>
+                <p>BE Student</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dp.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p style="font-family:'Times New Roman', Times, serif",style="font-size:160%;">
+                        Seeking a challenging position in a reputed organization where 
+                        I can learn new skills, expand my knowledge, and leverage my
+                        learnings. To get an opportunity where I can make the best of 
+                        my potential and contribute to the organization's growth.</p>
+
+                        <div class="tab-titles">
+                            <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                            <P class="tab-links" onclick="opentab('certificate')">Certifications</P>
+                            <P class="tab-links" onclick="opentab('education')">Education</P>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <span>
+                                    <li><span>Application Developement</span><br>Using java</li>
+                                    <li><span>Language Known</span><br>C<BR>C++<BR>JAVA</li>
+                                        <li><span>Soft Skills</span><br>Communication<BR>Leadership<BR>punctual</li>
+                                    
+                                </span>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="certificate">
+                            <ul>
+                                <span>
+                                    <li><span>COMPUTER HARDWARE & NETWORK</span><br>AICTE-e learning certificate</li>
+                                    <li><span>BEC - Cambridge Assessment English</span><br>Successfully completed</li>
+                                        <li><span>NPTEL - Introdution to internet of things</span><br>Successfully completed</li>
+                                    
+                                </span>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <span>
+                                    <li><span>10th</span><br>St.pauls Matric Higher Sceondary School</li>
+                                    <li><span>12th</span><br>Kamaraj Matriculation Higher Secondary School</li>
+                                        <li><span>BE - Computer Science Engineering</span><br>National Engineering College</li>
+                                    
+                                </span>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        
+        </div>
+        <!-- ------------------------------------projects--------------- -->
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">My Projects & Achievements</h1>
+                <div class="projects-list">
+                    <div>
+                        <i class="fa-solid fa-fish"></i>
+                        <h2 style="font-family:verdana;">
+                            SMART FISH AQUARIUM
+                        </h2>
+                        <P style="font-family:'Times New Roman', Times, serif">
+                                 As a general rule of thumb, you need one gallon of water per inch of fish. 
+                            Tiny tanks often lack filtration systems and heaters, which can lead to polluted, 
+                            chilly water conditions that stress the fish. Stressed fish are more susceptible 
+                            to diseases and will fail to thrive. Automatic fish feeders are electronic devices 
+                            capable of dispensing fish food at preset intervals.
+                        </P>
+                        <a href="#">Learn more</a>
+
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-trade-federation"></i>
+                        <h2 style="font-family:verdana;">
+                            AUTOMATIC FISH FEEDER
+
+                        </h2>
+                        <P style="font-family:'Times New Roman', Times, serif">
+
+                            This Project explains about the designing and developement an automatic fish feeder 
+                            that comes up with an application.Not like the ordinary fish feeding product in the 
+                            market today that requires the user to set the time for feeding.
+                        </P>
+                        <a href="#">Learn more</a>
+
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                        <h2 style="font-family:verdana;">
+                            ACHIEVEMENTS
+                        </h2>
+                        <P style="font-family:'Times New Roman', Times, serif">
+                            The Inventors Challenge-2022<br>
+                                      The short-listed 22 teams received STM32 kits
+                                      (Microcontroller) and industry mentorship to 
+                                      develop their idea into prototype. 7 Teams 
+                                      showcased the prototype to evaluators,business groups 
+                                      and guests at ST, Greater Noida Campus on 5thDecember, 2022
+                        </P>
+                        <a href="#">Learn more</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- --------------------------------contact----------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">
+                            Contact Me
+                        </h1>
+                        <p id="mail">venuvignesh33@gmail.com</p>
+                        <p id="number">6382388754</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/invites/contact/?i=xjr6dlbrbnr0&utm_content=pacqx8s"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/venu-vignesh-331893203/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/venu.pdf"  download class="button btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                          <form name="submit-to-google-sheet">
+                             <input type="text" name="Name"  placeholder="Your Name" required>
+                             <input type="email" name="Email"  placeholder="Your email" required>
+                             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                             <button type="submit" class="button btn2">SUBMIT</button>
+
+                            </form>
+                         <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------script for onclivk function-------------------- -->
+    <script>
+
+                 var tablinks=document.getElementsByClassName("tab-links");
+                 var tabcontents=document.getElementsByClassName("tab-contents");
+
+                 function opentab(tabname){
+                    for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+
+                    }
+                    for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+
+                 }
+          
+
+    </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxqtlVGyGtzmZP5EW32KrC-1yHHnuDlAG9P-mydzosz5sNayhPI6O1YoUn8HQfEWB03Kw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+     var sidemeu=document.getElementById("sidemenu");
+
+     function openmenu(){
+        sidemeu.style.right="0";
+     }
+     function closemenu(){
+        sidemeu.style.right="-200px";
+     }
+  </script>
+</body>
+</html>
